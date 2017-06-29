@@ -132,7 +132,8 @@ p {
   font-family: Roboto;
   color: #646464;
   line-height: 1.5;
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: 3%; }
 
 span {
   font: 16px roboto mono;
@@ -154,7 +155,7 @@ img {
   padding: 2%; }
 
 #profile .container:hover {
-  box-shadow: 0px 0px 10px #888888; }
+  box-shadow: 0 0 10px #888888; }
 #profile .container h2 {
   font-family: Product Sans;
   color: #424242;
@@ -165,7 +166,8 @@ img {
 #profile .container h4 {
   font-size: 18px; }
 
-#newsfeed .container, #cards .container {
+#cards .container,
+#newsfeed .container {
   box-shadow: 0px -5px #4285F4;
   padding: 0; }
 
@@ -191,6 +193,18 @@ img {
 
 .aside {
   background: #F1F3F4;
-  padding: .70rem; }
+  padding: 0.70rem; }
+
+.tarjeta {
+  margin-top: 5%;
+  padding: 2%; }
+  .tarjeta:hover {
+    box-shadow: 0 0 10px #888888; }
+
+.tarjeta--azul {
+  box-shadow: 0px -5px #4285F4; }
+
+.imagen-tarjeta {
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
