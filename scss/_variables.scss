@@ -8,3 +8,10 @@ $font-fechas:  16px roboto mono;
 $font-subtitles: Product Sans;
 $size-subtitles: 24px;
 $linea-azul: 0px -5px  #4285F4;
+
+
+@for $contenedores from 1 through 3 {
+  #{'.marg-azul'} {
+    box-shadow: $linea-azul;
+  }
+}

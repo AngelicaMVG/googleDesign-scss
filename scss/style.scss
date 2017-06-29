@@ -72,14 +72,6 @@ img {
   }
 }
 
-#cards,
-#newsfeed {
-  .container {
-    box-shadow: $linea-azul;
-    padding: 0;
-  }
-}
-
 .img-newDesign {
   margin-bottom: 5%;
 }
@@ -124,7 +116,30 @@ img {
   box-shadow: $linea-azul;
 }
 
-
-  .imagen-tarjeta {
+.imagen-tarjeta {
     width: 80%;
+}
+
+h5{
+  font-size: 18px;
+  font-family: $font-small;
+  line-height: 1.5;
+  color: #414549;
+  font-weight: 400;
+}
+
+.btn-circle {
+  float: right;
+  text-align: center;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid $color-hover;
+  border-radius: 100%;
+  box-shadow: 2px 5px 5px $color-hover;
+
+  i {
+    color: #4989F4;
+    margin-top: 23%;
   }
+}
