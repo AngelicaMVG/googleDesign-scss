@@ -1,0 +1,112 @@
+@import "variables";
+@import "mixin";
+@import "grid";
+
+
+.img-logo {
+  width: 80%;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.search {
+  position: relative;
+  right: 0;
+  margin-top: 5%;
+  margin-bottom: -6%;
+
+  .lupa {
+    width: 25%;
+    padding-top: 10%;
+  }
+}
+
+.menu {
+  text-align: center;
+
+  li {
+    @include list;
+
+    a {
+      @include list-style;
+    }
+  }
+}
+
+p{
+  @include parrafos;
+}
+
+span {
+  font: $font-fechas;
+  color: $fecha;
+  margin-bottom: 15%;
+}
+
+h4 {
+  @include subTitles;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin-top: 5%;
+  padding: 2%;
+}
+
+#profile {
+  .container {
+    &:hover {
+      box-shadow: 0px 0px 10px  $color-hover;
+    }
+
+    h2 {
+      @include subTitles;
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
+
+
+#newsfeed, #cards{
+  .container {
+    box-shadow: $linea-azul;
+    padding: 0;
+  }
+}
+
+.img-newDesign{
+  margin-bottom: 5%;
+}
+
+.noticias {
+  padding: 5%;
+}
+
+.more-news {
+  position: relative;
+  left: 80%;
+  font-size: 17px;
+  font-family: $font-small;
+  color: #4989F4;
+  margin-top: 3%;
+}
+
+.new {
+  margin-top: 5%;
+  a{
+    color: #4989F4;
+    text-decoration: none;
+  }
+}
+
+.aside {
+  background: #F1F3F4;
+  padding: .70rem;
+}
